@@ -1,0 +1,133 @@
+
+/*Inicia Fuentes del sitio*/
+@font-face{
+  font-family: bellota;
+  src: url(../Fonts/Bellota-Light.otf);
+}
+@font-face{
+  font-family: Roboto;
+  src: url(../Fonts/Roboto-Light.ttf);
+}
+/*Termina Fuentes del sitio*/
+/*Inicia Reglas generales del sitio*/
+body{
+	background-color: #eee;
+ 	font-family: roboto, helvetica, arial;
+	font-size: 16px;
+	margin-bottom: 0px; 
+	margin-left: 0px;
+  	margin-right: 0px;
+  	margin-top: 0px;
+  	text-rendering: optimizeLegibility;
+}
+a{
+	text-decoration: none;
+}
+/*Termina Reglas generales del sitio*/
+/*Inicia navegacion del menu*/
+/*Inicia maqutacion del menu*/
+nav{
+	background-color: #2a3133;
+	-webkit-box-shadow: 0 5px 3px -1px #C2C2C2;
+    box-shadow: 0 5px 3px -1px  #C2C2C2;
+	display: inline;
+	height: 50px;
+	top: 0px;
+	position: fixed;
+	width: 100%;
+}
+/*Termina navegacion del menu*/
+/*Inicia maquetacion del logo*/
+nav h3{
+	 float: left;
+	 margin:0px;
+	 padding-left: 3%;
+	 display: block;
+	 width: 120px;
+	 max-width: 140px;
+}
+nav h3 a{
+	color: #fff;
+	letter-spacing: 1.5px;
+	font-size: 30px;
+	font-family: bellota;
+}
+/*Termina maquetacion del logo*/
+/*Inicia maquetacion del menu-contextual*/
+ul{
+	height: 50px;
+	float: right;
+	padding-left: 15px;
+	width: 350px;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+	}
+nav ul li a{
+	font-size: 18px;
+	color: #888888;
+	letter-spacing: 1px;
+	padding-bottom: 8px;
+}
+/*Termina maquetacion del menu-contextual*/
+/*Inicia animacion del menu*/
+nav h3 a:hover{
+	color: orange;
+    cursor: default;
+    text-decoration: none;
+    transition-duration: 0.7s, 0.7s, 0.7s, 0.7s;
+    transition-property: color, background-color, border-color, opacity;
+}
+nav ul li a:hover{
+	color: orange;
+	-webkit-box-shadow: 0 3px 0 0 orange;
+    box-shadow: 0 3px 0 0 orange;
+    transition-duration: 0.7s, 0.7s, 0.7s, 0.7s;
+    transition-property: color, background-color, border-color, box-shadow, font-size, font-family, opacity;
+}
+/*Termina animacion del menu*/
+
+/*Termina navegacion del menu*/
+
+/*Inicia Titulo de Sitio*/
+section h1{
+	color: #000;
+	font-family: bellota;
+	font-size: 100px;
+	text-align: center;
+	cursor: default;
+	letter-spacing: 2px;
+}
+section h1 a:hover{
+    color: orange;
+    cursor: default;
+    text-decoration: none;
+    transition-duration: 0.7s, 0.7s, 0.7s, 0.7s;
+    transition-property: color, background-color, border-color, opacity;
+}
+.cabezera{
+	vertical-align: center;
+}
+.DownFinple{
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	vertical-align: center;
+	width: 40%;
+}
+.WH{
+	background-color: #fff;
+	vertical-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	box-shadow: 0 0 3px #444;
+	width: 50%;
+}
+.Titulo{
+
+}
+.contenido{
+
+}
