@@ -1,0 +1,24 @@
+/*Inicia Fuentes del sitio*/
+@font-face{
+  font-family: bellota;
+  src: url(../Fonts/Bellota-Light.otf);
+}
+@font-face{
+  font-family: Roboto;
+  src: url(../Fonts/Roboto-Light.ttf);
+}
+/*Termina Fuentes del sitio*/
+body{
+	font-family: roboto;
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	padding-top: 0px;
+}
+nav{
+	background-color: #000;
+	height: 60px;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
