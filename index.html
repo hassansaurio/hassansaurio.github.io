@@ -7,11 +7,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
         <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
     </head>
     <body>
         <!--Empieza menu-->
         <nav>
-            <h3 class=""><a href="#">Finple\\</a></h3>
+            <h3 class=""><a href="#top">Finple\\</a></h3>
             <ul class="">
                  <li><a href="#what">What is?</a></li>
                  <li><a href="#how">How works?</a></li>
@@ -21,12 +39,13 @@
         <!--Termina menu-->
         <!--Empieza el sitio-->
         <!--Empieza Cabezera del sitio-->
-        <section class="holi">
+        <section class="holi" id="top" >
         <section class="cabezera">
             <h1><a class="titulowow">Finple\\</a></h1>
             <article class="DownFinple">The easy way to find new friends and why not? <br> Your "better half"</article>
         </section>
         <!--Termina Cabezera del sitio-->
+            <a  href="#two" ><div class="circulo"></div></a>
         <!--Empieza contenido del sitio-->
         <section>
         <section class="contenido">
@@ -34,7 +53,7 @@
             <article class="Titulo">What is Finple?</article>
             <article class="Contenido">Finple is an easy, smart and modern way to find people with interests in common. All you need is to download the app and sing in with a social network like Facebook, Twiiter, Spotify or Instagram. Then the magic works.</article>
          </section>
-         <section class="WH" id="who">
+         <section class="WH" id="two">
             <article class="Titulo">How it Works?</article>
             <article class="Contenido">Through your social networks Findple can compare your interests with the other ones, and suggests you people to meet.</article>
             </section>

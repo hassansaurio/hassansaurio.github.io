@@ -99,7 +99,7 @@ nav ul li a:hover{
 section h1{
 	color: #000;
 	font-family: bellota;
-	font-size: 150px;
+	font-size: 110px;
 	text-align: center;
 	cursor: default;
 	letter-spacing: 2px;
@@ -113,7 +113,7 @@ section h1 a:hover{
 }
 .holi{
     display: inline-block;
-    top: -100px;
+    top: -60px;
     position:relative;
     margin:0 auto;
         
@@ -126,6 +126,7 @@ section h1 a:hover{
     height: 550px;
     width: 100%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .50);
+    z-index: -1;
 }
 .DownFinple{
 	margin-left: auto;
@@ -200,4 +201,25 @@ footer a{
 .acomodarlinks{
     text-align: center;
     padding-top: 50px; 
+}
+.circulo{
+    text-align: center;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.6);
+    background-color: #fff;
+    background-image: url(../src/img/boton.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    z-index: 0;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 48%;
+}
+.circulo:hover{
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.5);
+    transition-duration: 0.7s, 0.7s, 0.7s, 0.7s;
+    transition-property: color, background-color,     border-color, opacity, box-shadow ;
 }
